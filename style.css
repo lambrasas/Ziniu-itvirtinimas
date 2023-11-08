@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+header p{
+    font-weight: 600;
+}
+header b{
+    color: #645cff;
+}
+.header-options{
+    display: none;
+}
+.icon{
+    width: 25px;
+}
+.hero{
+    background: #645cff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    gap: 10px;
+    padding: 300px 50px;
+}
+.hero h1{
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.hero p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.hero button{
+    width: 100px;
+    color: white;
+    background: #645cff;
+    border: solid rgba(0, 0, 0, 0.089) 1px;
+    padding: 3px 0;
+    cursor: pointer;
+
+}
+.about-us{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-us b{
+    color: #645cff;
+}
+.hiking{
+    width: 100%;
+}
+.about-us h1{
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.about-us-text{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about-us-text h1{
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: start;
+}
+.about-us-text p{
+    font-size: 13px;
+}
+.about-us-text a{
+    text-align: start;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: none;
+    color: #645cff !important; 
+    font-weight: 600;
+    
+}
+.our-services{
+    background: #f7fafb;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 50px;
+}
+.our-services-header{
+    text-align: center;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.our-services-header h1{
+    font-size: 30px;
+    font-weight: 400;
+}
+.our-services-header h2{
+    font-size: 30px;
+    color: #645cff;
+    font-weight: 400;
+}
+.our-services-options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+}
+.our-services-option-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    gap: 10px;
+
+}
+.our-services-option-container p{
+    font-size: 12px;
+}
+.our-services-option-container h1{
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.services-icon{
+    background: #645cff;
+    padding: 10px;
+}
+.picture-1{
+    background-image:url(mountains.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.picture-2{
+    background-image:url(java.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.picture-3{
+    background-image:url(hong.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.picture-4{
+    background-image:url(kenya.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.date{
+    background: #645cff;
+    padding: 5px;
+    width: fit-content;
+    top: 20px;
+    position: relative;
+    font-weight: 500;
+}
+.featured-tours{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 50px;
+}
+.all-tours{
+    color: #645cff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+.featured-tours-header{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    letter-spacing: 5px;
+}
+.featured-tours-header h1{
+    font-weight: 500;
+}
+.featured-tours-header h1:nth-of-type(2){
+    color: #645cff;
+}
+.card-bottom-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.info-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.country{
+    display: flex;
+    align-items: center;
+    color: #645cff;
+    font-weight: 500;
+}
+.trip p{
+    font-weight: 500;
+    font-size: 20px;
+}
+.card-bottom{
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-top: none;
+}
+.our-gallery{
+    margin-top: 50px;
+}
+.our-gallery-header{
+    display: flex;
+    padding: 30px;
+    background: #f7fafb;
+    gap: 10px;
+    justify-content: center;
+}
+.our-gallery-header h1{
+    letter-spacing: 5px;
+    text-align: center;
+    font-weight: 500;
+}
+.our-gallery-header h1:nth-of-type(2){
+    color: #645cff;
+}
+.pictures{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: #645cff;
+}
+.newsletter{
+    background: #645cff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+
+    padding: 20px 10px 50px 10px;
+}
+.newsletter-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.newsletter-text h1{
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-size: 25px;
+}
+.newsletter p{
+    text-align: start;
+    font-size: 15px;
+}
+.newsletter-input form{
+    display: flex;
+    background: white;
+    padding: 5px;
+}
+.newsletter-input input{
+    border: none;
+}
+input::placeholder{
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 15px;
+}
+.newsletter-input form button{
+    background: #eeefed;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.footer{
+    background:#222 ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 0;
+}
+.footer-options{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-options a{
+    text-decoration: none;
+    cursor: pointer;
+
+}
+a:hover, a:visited, a:link{
+    text-decoration: none;
+    color: inherit;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-copyright{
+    text-align: center;
+}
+@media (min-width: 769px){
+    header{
+        padding: 30px 50px;
+    }
+    .header-options{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        gap: 10px;
+    }
+    .header-options a{
+        font-weight: 600;
+    }
+    .header-icons{
+        display: flex;
+        gap: 20px;
+    }
+    .hero{
+        background: linear-gradient(rgba(100, 92, 255, 0.9), rgba(100, 92, 255, 0.4)), url('hero.jpg') no-repeat center center/cover;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hero h1{
+        font-size: 50px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .hero p{
+        padding: 0 250px;
+    }
+    .about-us{
+        margin: 50px 0;
+        padding: 0 50px;
+    }
+    .about-us-container{
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        margin-top: 20px;
+    }
+    .about-us-picture{
+        display: inline-block;
+        position: relative;
+        width: 40%;
+        height: 40%;
+    }
+    .about-us-text{
+        text-align: start;
+        width: 50%;
+    }
+    .about-us-picture img {
+        display: block;
+        width: 100%; 
+        height: auto;
+    }
+    .about-us-picture:before {
+        content: '';
+        position: absolute;
+        top: -15px; 
+        left: -15px; 
+        right: 10px; 
+        bottom: 10px; 
+        border: 5px solid #645cff; 
+        border-radius: 2px;
+        z-index: -1;
+    }
+    .about-us-text h1{
+        font-weight: 500;
+        font-size: 25px;
+    }
+    .about-us-text p{
+        font-weight: 400;
+    }
+}
