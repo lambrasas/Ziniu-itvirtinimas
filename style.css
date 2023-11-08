@@ -410,4 +410,79 @@ a:hover, a:visited, a:link{
     .about-us-text p{
         font-weight: 400;
     }
+    .our-services{
+        padding: 100px;
+    }
+    .our-services-options{
+        display: flex;
+        flex: 1;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .our-services-option-container{
+        display: flex;
+        flex-direction: row;
+        text-align: start;
+        align-items: flex-start;
+    }
+    .our-services-option-container-text h1{
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-size: 20px;
+    }
+    .featured-tours{
+        padding: 1%;
+    }
+    .featured-tours-cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 1%;
+        row-gap: 20px;
+        width: 100%;
+    }
+    .featured-tours-card{
+        width: 30%;
+
+    }
+    .pictures{
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        gap: 0;
+        width: 100%;
+        
+    }
+    .pictures img{
+        width: 25%;
+    }
+    .newsletter{
+        display: flex;
+        justify-content: space-evenly;
+        flex: 1;
+        gap: 20px;
+    }
+    .newsletter-input form{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .newsletter-input{
+        width: 50%;
+    }
+    .newsletter-input form input{
+        width: 100%;
+    }
+    .newsletter-text h1{
+        font-size: 40px;
+    }
+    .newsletter-text{
+        text-align: center;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .all-tours{
+        color: #645cff !important;
+    }
 }
